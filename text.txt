@@ -1,0 +1,13 @@
+## Book     ## Cat
+
+Book belongsToMany cats
+cat belongsToMany books
+
+
+
+
+## User          ## Note
+
+
+User hasMany Notes
+Notes belongsTo one User
